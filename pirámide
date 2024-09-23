@@ -1,0 +1,9 @@
+#Este programa dibuja un cuadrardo de las dimensiones que le digamos
+def cuadrados():
+  n_filas=int(input("¿De qué tamaño quieres el cuadrado(1-11)?"))
+  for filas in range(1,n_filas+1):
+    for col in range(1,filas+1):
+      print('* ',end='')
+    print(" ")
+
+cuadrados()
