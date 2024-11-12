@@ -1,0 +1,15 @@
+#Problema con los decimales
+
+#Leo cinco números y me dice la media de los cinco
+def media_numeros():
+    #definimos una variable ACUMULADORA, es decir una variable que recoge la suma
+    #de los números hasta el momento
+    suma=0 #inicializar la variable.
+    for cont in range(1,6):
+        numero=int(input("Dime un número entero mayor que cero: "))
+        suma=suma+numero #suma=+suma
+       
+    media=float(suma)/cont #conversión de tipos
+    print("La media vale  "+str(media))
+
+media_numeros()
